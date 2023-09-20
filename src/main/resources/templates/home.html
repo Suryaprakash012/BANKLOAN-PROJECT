@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+    <link rel="stylesheet" href="home.css">
+
+</head>
+<body>
+  <div class="full">
+	      <form th:action="@{/home}" method="post">        
+
+        <div class="head">
+           <h1>BANK OF IRELAND</h1>
+           <h2>APPLY FOR LOAN</h2>
+           <p><li>
+            Welcome to ABC Bank - Your Trusted Partner in Financial Solutions
+           </li>
+           <li>Explore Our Personal Loan Options</li>
+           <li>Competitive Interest Rates as Low as 4.99%</li>
+           <li>Documents Needed for Mortgage Application</li>
+           <li>Get Started Now" or "Apply for a Loan</li>
+           <li>
+           <a th:href="@{/login}">APPLY LOAN</a>
+
+           </li>
+        </p>
+        </div>
+	      </form>
+    </div>
+</body>
+</html>
