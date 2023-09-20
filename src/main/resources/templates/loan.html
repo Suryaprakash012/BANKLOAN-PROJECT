@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="loan.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form th:action="@{/loan}" method="post">
+                                <div class="input-box">
+                  
+                        <label for="username">ENTER LOAN AMOUNT:</label>
+                        <input type="text" id="username" name="username" required> <br>
+                                </div>
+                <button type="submit">APPLY LOAN</button>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+

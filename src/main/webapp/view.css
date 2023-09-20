@@ -1,0 +1,36 @@
+@charset "ISO-8859-1";
+
+
+h1{
+    width: 500px;
+    height: 60px;
+    background-color: antiquewhite;
+    font-family: Arial black;
+}
+tr{
+    margin-left: 100px;
+}
+th{
+    width: 130px;
+    height: 40px;
+    background-color: blueviolet;
+    margin-left: 100px;
+
+}
+.APPROVAL{
+    width: 100PX;
+    height: 30PX;
+    background-color: green;
+    color: white;
+    font-family: Arial black;
+    border: none;
+}
+.deny{
+    width: 100PX;
+    height: 30PX;
+    background-color: green;
+    color: white;
+    font-family: Arial black;
+    border: none;
+    margin-left: 20px;
+}

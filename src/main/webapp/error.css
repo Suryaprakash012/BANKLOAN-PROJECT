@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";.full{
+    width: 900px;
+    height: 200px;
+    background-color: antiquewhite;
+    font-family: Arial,black;
+    padding: 50px;
+    margin-left: 300px;
+    margin-top: 70px;
+    border: solid brown;
+    border-radius: 10px
+}
+body{
+    background-color: rgba(0, 0, 0, 0.414);
+}
