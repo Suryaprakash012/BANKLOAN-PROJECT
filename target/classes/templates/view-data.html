@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Data</title>
+        <link rel="stylesheet" href="view.css">
+
+</head>
+<body style="background-color: black;">
+ <h1>LOAN LIST</h1>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>
+        <tr th:each="entity : ${data}">
+            <td th:text="${entity.id}" style="color: ghostwhite;font-family: Arial black;" ></td>
+            <td th:text="${entity.username}" style="color: ghostwhite;font-family: Arial black;"></td>
+        </tr>
+    </table>
+    <button class="APPROVAL">APPROVAL</button><button class="deny">DENY</button>
+    <a href="approved.html" style="color: blanchedalmond;">approved</a>
+</body>
+</html>
